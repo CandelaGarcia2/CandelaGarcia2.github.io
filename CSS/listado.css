@@ -1,0 +1,25 @@
+
+    .pub-container {
+        width: 800px;
+        border:2px solid rgb(29, 29, 30);
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+    .pub-container img {
+        max-height: 200px;
+        max-width: 200px;
+        margin-right: 15px;
+        float: left;
+
+    }
+
+.pub-container h3, .pub-container p {
+    
+    display:block;
+    margin: 2px 0 0 0;
+
+} 
+.container {
+   margin:auto;
+   max-width: 800px; 
+}

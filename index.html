@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test</title>
+<link rel="stylesheet" href="CSS/footer.css">
+<link rel="stylesheet" href="CSS/navbar.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(function () {
+    $("#navbar").load("navbar.html");
+   });
+
+
+</script>
+
+</head>
+<body>
+  <div id="navbar"></div>
+ 
+
+
+    <div class="bgimg-1">
+      <div class="caption">
+      <span class="border">Pub</span>
+      </div>
+    </div>
+    
+    <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+      <h3 style="text-align:center;">Advertising</h3>
+      <p>DISCOVER THE MOST CONTROVERSIAL GRAPHIC ADVERTISING CAMPAIGNS OF RECENT TIMES.
+      Very controversial graphic campaigns have become widespread that, in one way or another, have generated a viral effect and therefore a lot of users and real sales. We must bear in mind that the audiovisual is in charge and the more impressive the advertising message to be transmitted, the more positive and profitable it will be for the economic balance of a brand and our company. But, what values ​​are the ones that these most controversial graphic campaigns want or want to transmit?
+      </p>
+    </div>
+    
+    <div class="bgimg-2">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Eufemismo</span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+      <p>Eufemismo- Use of sweetening to diminish the crudeness of the vulgarity of a composition. </p>
+      </div>
+    </div>
+    
+    <div class="bgimg-3" id="up">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Visual metaphors</span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+      <p>Alcachofa- Elter Drugs. 
+        This ad warns the public about foodborne illness by comparing an unwashed artichoke to an explosive. By creating a visual metaphor, Elter Drugs can convey a strong food safety message
+        the examples of great advertisement and marketing techniques. In hope to inspire all the advertisers out there to build great ads.</p>
+      </div>
+    </div>
+    
+    <div class="bgimg-1">
+      <div class="caption">
+      <span class="border">Great!</span>
+      </div>
+    </div>
+    
+<footer class="footer">
+    <p>Author: CanCan</p>
+    <p><a href="mailto:hege@example.com">candelagarcia2@hotmail.com</a></p>
+  </footer>
+
+</body>
+<style>
+    
+    
+/*parallax*/
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("img/banana.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("img/frutilla.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("img/granada.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+
+</style>
+
+  
+</html>
