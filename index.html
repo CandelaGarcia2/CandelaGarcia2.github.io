@@ -2,13 +2,14 @@
 <html>
 <head>
 <title>Test</title>
-<link rel="stylesheet" href="CSS/footer.css">
+
 <link rel="stylesheet" href="CSS/navbar.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script type="text/javascript">
 $(function () {
     $("#navbar").load("navbar.html");
+    $("#footer").load("footer.html");
 });
 </script>
 
@@ -16,7 +17,7 @@ $(function () {
 <body>
   <div id="navbar"></div>
  
-    <div class="bgimg-1">
+    <div class="bgimg-1" >
       <div class="caption">
       <span class="border">Pub</span>
       </div>
@@ -29,7 +30,7 @@ $(function () {
       </p>
     </div>
     
-    <div class="bgimg-2">
+    <div class="bgimg-2" id="up">
       <div class="caption">
       <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Eufemismo</span>
       </div>
@@ -41,7 +42,7 @@ $(function () {
       </div>
     </div>
     
-    <div class="bgimg-3" id="up">
+    <div class="bgimg-3" >
       <div class="caption">
       <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Visual metaphors</span>
       </div>
@@ -61,11 +62,7 @@ $(function () {
       </div>
     </div>
     
-<footer class="footer" id="contact">
-    <p>Author: CanCan</p>
-    <p><a href="mailto:hege@example.com">candelagarcia2@hotmail.com</a></p>
-  </footer>
-
+<footer id="footer"></footer>
 </body>
 <style>
     
